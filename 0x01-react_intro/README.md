@@ -45,9 +45,6 @@ Read or watch:
 
 ---
 
-## Requirements:hammer:
-
-- Ubuntu 18.04 LTS using `Node 14.x.x` and `npm 6.x.x`
 
 ### Install NodeJS 12.22.x
 
