@@ -1,0 +1,16 @@
+{
+  "name": "0x06-react_immutable",
+  "version": "1.0.0",
+  "description": "- Immutable objects. Who, what, when, where, and why?\r - How to use the Immutable.js library to bring immutability to Javascript\r - The differences between List and Map\r - How to use Merge, Concat, and Deep Merging\r - What a lazy Seq is",
+  "main": "0-fromjs.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^4.3.6"
+  }
+}
