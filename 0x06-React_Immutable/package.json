@@ -4,13 +4,21 @@
   "description": "- Immutable objects. Who, what, when, where, and why?\r - How to use the Immutable.js library to bring immutability to Javascript\r - The differences between List and Map\r - How to use Merge, Concat, and Deep Merging\r - What a lazy Seq is",
   "main": "0-fromjs.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scripts": {
+      "test": "jest",
+      "test:utils": "jest tests/utils/0-test.js"
+    },
+    "jest": {
+    "testMatch": ["**/__tests__/**/*.js?(x)", "**/?(*.)+(spec|test).js?(x)"]
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "immutable": "^4.3.6"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
