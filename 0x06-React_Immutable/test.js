@@ -7,5 +7,5 @@ const obj = {
   thing: -914767132
 };
 
-const immutableObj = getImmutableObject(obj);
-console.log(immutableObj);
+const immutablesimo = getImmutableObject(obj);
+console.log(immutablesimo);
